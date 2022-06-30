@@ -21,3 +21,5 @@ docker-compose up -d --build
 
 docker exec DemoAPM_apache chown -R root:www-data /usr/local/apache2/logs
 docker exec DemoAPM_php chown -R root:www-data /usr/local/etc/logs
+
+curl -o /tmp/sqlsrv/Ubuntu16.tar -sSL https://github.com/Microsoft/msphpsql/releases/download/v4.3.0/Ubuntu16-7.0.tar
